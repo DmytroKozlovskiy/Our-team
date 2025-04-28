@@ -1,0 +1,123 @@
+:root {
+  --font-family: "Raleway", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "Open Sans", sans-serif;
+  --sub-text: #898f8f;
+  --gold: #fc0;
+}
+
+body {
+  width: 1170px;
+  gap: 40px;
+  margin: 0 auto;
+
+  hr {
+    border: 1px solid var(--gold);
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    h1 {
+      font-family: var(--second-family);
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 110%;
+      text-transform: uppercase;
+      text-align: center;
+      color: var(--gold);
+    }
+  }
+
+  h2 {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #666;
+  }
+
+  h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--sub-text);
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 85px;
+  }
+
+  .central-line {
+    transform: rotate(0deg);
+    border: 1px solid var(--gold);
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .info {
+    width: 50%;
+
+    >h3 {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      text-transform: capitalize;
+      text-align: center;
+      color: #666;
+
+    }
+
+    .hr0 {
+      width: 100px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        justify-content: center;
+        margin-right: 10px;
+        list-style: none;
+      }
+    }
+
+    .hr {
+      margin-left: 242px;
+    }
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #333;
+  }
+
+  .view {
+    border: 1px solid var(--gold);
+    display: inline-flex;
+    margin-left: 202px;
+    margin-top: 25px;
+    padding: 0 5px;
+  }
+}
