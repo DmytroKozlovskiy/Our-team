@@ -8,8 +8,7 @@
 
 body {
   width: 1170px;
-  gap: 40px;
-  margin: 0 auto;
+  margin: 20px auto;
 
   hr {
     border: 1px solid var(--gold);
