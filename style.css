@@ -10,8 +10,7 @@ body {
 
   .container {
     width: 1170px;
-    margin: 0 auto;
-    height: 100vh;
+    margin: 20px auto;
   }
 
   hr {
