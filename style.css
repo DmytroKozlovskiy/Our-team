@@ -7,9 +7,12 @@
 }
 
 body {
-  width: 1170px;
-  height: 90vh;
-  margin: 0 auto;
+
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100vh;
+  }
 
   hr {
     border: 1px solid var(--gold);
